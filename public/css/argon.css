@@ -18,7 +18,7 @@
 */
 :root
 {
-    --blue: #6A26CD;
+    --blue: #FE5430;
     --indigo: #5603ad;
     --purple: #8965e0;
     --pink: #f3a4b5;
@@ -33,7 +33,7 @@
     --gray-dark: #32325d;
     --light: #ced4da;
     --lighter: #e9ecef;
-    --primary: #6A26CD;
+    --primary: #FE5430;
     --secondary: #f7fafc;
     --success: #2dce89;
     --info: #11cdef;
@@ -4685,7 +4685,7 @@ input[type='button'].btn-block
 {
     text-decoration: none;
 
-    color: #6A26CD;
+    color: #FE5430;
     background-color: #f6f9fc;
 }
 .dropdown-item.active,
@@ -6635,8 +6635,8 @@ input[type='button'].btn-block
     z-index: 3;
 
     color: #fff;
-    border-color: #6A26CD; 
-    background-color: #6A26CD;
+    border-color: #FE5430; 
+    background-color: #FE5430;
 }
 
 .page-item.disabled .page-link
@@ -8769,7 +8769,7 @@ a.close.disabled
 
 .bg-primary
 {
-    background-color: #6A26CD !important;
+    background-color: #FE5430 !important;
 }
 
 a.bg-primary:hover,

@@ -23,7 +23,7 @@ function Home() {
                                         </div>
                                         <div className="col-auto">
                                             <div className="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
-                                            <i className="ni ni-active-40" />
+                                            <i class="bi bi-person"></i>
                                             </div>
                                         </div>
                                         </div>
@@ -40,7 +40,7 @@ function Home() {
                                         </div>
                                         <div className="col-auto">
                                             <div className="icon icon-shape bg-gradient-orange text-white rounded-circle shadow">
-                                            <i className="ni ni-chart-pie-35" />
+                                            <i class="bi bi-people"></i>
                                             </div>
                                         </div>
                                         </div>
@@ -57,7 +57,7 @@ function Home() {
                                         </div>
                                         <div className="col-auto">
                                             <div className="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
-                                            <i className="ni ni-money-coins" />
+                                            <i class="bi bi-person-badge"></i>
                                             </div>
                                         </div>
                                         </div>
@@ -74,7 +74,7 @@ function Home() {
                                         </div>
                                         <div className="col-auto">
                                             <div className="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
-                                            <i className="ni ni-chart-bar-32" />
+                                            <i class="bi bi-cash-stack"></i>
                                             </div>
                                         </div>
                                         </div>
@@ -99,8 +99,8 @@ function Home() {
                                         <th scope="col" className="sort" data-sort="name">Nome</th>
                                         <th scope="col" className="sort" data-sort="budget">CPF(ver)</th>
                                         <th scope="col" className="sort" data-sort="status">Status</th>
-                                        <th scope="col">Ver</th>
-                                        <th scope="col" className="sort" data-sort="completion">Ver</th>
+                                        <th scope="col">Dado</th>
+                                        <th scope="col" className="sort" data-sort="completion">Dado</th>
                                         <th scope="col" />
                                         </tr>
                                     </thead>
@@ -137,7 +137,7 @@ function Home() {
                                         <td className="text-right">
                                             <div className="dropdown">
                                             <a className="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i className="fas fa-ellipsis-v" />
+                                                <i class="bi bi-three-dots-vertical"></i>
                                             </a>
                                             <div className="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
                                                 <a className="dropdown-item" href="#">Excluir</a>
@@ -179,7 +179,7 @@ function Home() {
                                         <td className="text-right">
                                             <div className="dropdown">
                                             <a className="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i className="fas fa-ellipsis-v" />
+                                                <i class="bi bi-three-dots-vertical"></i>
                                             </a>
                                             <div className="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
                                                 <a className="dropdown-item" href="#">Excluir</a>
@@ -195,7 +195,7 @@ function Home() {
                                             <a href="#" className="avatar rounded-circle mr-3">
                                             </a>
                                             <div className="media-body">
-                                                <span className="name mb-0 text-sm">Black Dashboard</span>
+                                                <span className="name mb-0 text-sm">Gretchen Brito de Miranda</span>
                                             </div>
                                             </div>
                                         </th>
@@ -221,12 +221,12 @@ function Home() {
                                         <td className="text-right">
                                             <div className="dropdown">
                                             <a className="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i className="fas fa-ellipsis-v" />
+                                                <i class="bi bi-three-dots-vertical"></i>
                                             </a>
                                             <div className="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                                                <a className="dropdown-item" href="#">Action</a>
-                                                <a className="dropdown-item" href="#">Another action</a>
-                                                <a className="dropdown-item" href="#">Something else here</a>
+                                                <a className="dropdown-item" href="#">Ação 1</a>
+                                                <a className="dropdown-item" href="#">Ação 2</a>
+                                                <a className="dropdown-item" href="#">Ação 3</a>
                                             </div>
                                             </div>
                                         </td>
@@ -237,7 +237,7 @@ function Home() {
                                             <a href="#" className="avatar rounded-circle mr-3">
                                             </a>
                                             <div className="media-body">
-                                                <span className="name mb-0 text-sm">React Material Dashboard</span>
+                                                <span className="name mb-0 text-sm">WEB DIVA TULLA LUANA</span>
                                             </div>
                                             </div>
                                         </th>
@@ -247,32 +247,28 @@ function Home() {
                                         <td>
                                             <span className="badge badge-dot mr-4">
                                             <i className="bg-info" />
-                                            <span className="status">on schedule</span>
+                                            <span className="status">Suspenso</span>
                                             </span>
                                         </td>
                                         <td>
-                                            <div className="avatar-group">
+                                        <div className="media-body">
+                                            <span className="name mb-0 text-sm">N sei</span>
                                             </div>
                                         </td>
                                         <td>
                                             <div className="d-flex align-items-center">
-                                            <span className="completion mr-2">90%</span>
-                                            <div>
-                                                <div className="progress">
-                                                <div className="progress-bar bg-info" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} style={{width: '90%'}} />
-                                                </div>
-                                            </div>
+                                            <span className="completion mr-2">N sei</span>
                                             </div>
                                         </td>
                                         <td className="text-right">
                                             <div className="dropdown">
                                             <a className="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i className="fas fa-ellipsis-v" />
+                                                <i class="bi bi-three-dots-vertical"></i>
                                             </a>
                                             <div className="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                                                <a className="dropdown-item" href="#">Action</a>
-                                                <a className="dropdown-item" href="#">Another action</a>
-                                                <a className="dropdown-item" href="#">Something else here</a>
+                                                <a className="dropdown-item" href="#">Ação 1</a>
+                                                <a className="dropdown-item" href="#">Ação 2</a>
+                                                <a className="dropdown-item" href="#">Ação 3</a>
                                             </div>
                                             </div>
                                         </td>
@@ -284,37 +280,33 @@ function Home() {
                                             
                                             </a>
                                             <div className="media-body">
-                                                <span className="name mb-0 text-sm">Vue Paper UI Kit PRO</span>
+                                                <span className="name mb-0 text-sm">Natasha buonasera Natasha</span>
                                             </div>
                                             </div>
                                         </th>
                                         <td className="budget">
-                                            $2200 USD
+                                            999.999.999-99
                                         </td>
                                         <td>
                                             <span className="badge badge-dot mr-4">
                                             <i className="bg-success" />
-                                            <span className="status">completed</span>
+                                            <span className="status">Ativo</span>
                                             </span>
                                         </td>
                                         <td>
-                                            <div className="avatar-group">
+                                        <div className="d-flex align-items-center">
+                                            <span className="completion mr-2">N sei</span>
                                             </div>
                                         </td>
                                         <td>
                                             <div className="d-flex align-items-center">
-                                            <span className="completion mr-2">100%</span>
-                                            <div>
-                                                <div className="progress">
-                                                <div className="progress-bar bg-success" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} style={{width: '100%'}} />
-                                                </div>
-                                            </div>
+                                            <span className="completion mr-2">N sei</span>
                                             </div>
                                         </td>
                                         <td className="text-right">
                                             <div className="dropdown">
                                             <a className="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i className="fas fa-ellipsis-v" />
+                                                <i class="bi bi-three-dots-vertical"></i>
                                             </a>
                                             <div className="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
                                                 <a className="dropdown-item" href="#">Action</a>
@@ -332,7 +324,7 @@ function Home() {
                                     <ul className="pagination justify-content-end mb-0">
                                         <li className="page-item disabled">
                                         <a className="page-link" href="#" tabIndex={-1}>
-                                            <i className="fas fa-angle-left" />
+                                            <i class="bi bi-arrow-left-short"></i>
                                             <span className="sr-only">Previous</span>
                                         </a>
                                         </li>
@@ -345,7 +337,7 @@ function Home() {
                                         <li className="page-item"><a className="page-link" href="#">3</a></li>
                                         <li className="page-item">
                                         <a className="page-link" href="#">
-                                            <i className="fas fa-angle-right" />
+                                            <i class="bi bi-arrow-right-short"></i>
                                             <span className="sr-only">Next</span>
                                         </a>
                                         </li>
