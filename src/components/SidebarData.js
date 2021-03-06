@@ -12,20 +12,20 @@ export const SidebarData = [
     },
     {
         title: 'Alunos',
-        path: '/products',
-        icon: <AiIcons.AiFillHome />,
+        path: '/alunos',
+        icon: <FaIcons.FaUserCheck/>,
         cName: 'nav-text'
     },
     {
         title: 'Personais',
-        path: '/reports',
-        icon: <IoIcons.IoIosPaper />,
+        path: '/personais',
+        icon: <FaIcons.FaIdBadge/>,
         cName: 'nav-text'
     },
     {
         title: 'Configurações',
-        path: '/',
-        icon: <AiIcons.AiFillHome />,
+        path: '/configu',
+        icon: <FaIcons.FaCog/>,
         cName: 'nav-text'
     },
 
